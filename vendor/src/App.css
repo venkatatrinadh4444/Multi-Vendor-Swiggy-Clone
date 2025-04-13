@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.sideBar *{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 16px;
+}
+.sideBar {
+  display: flex !important;
+  flex-direction: column;
+  min-height: 88vh;
+}
+
+/* register form */
+
+.registerForm {
+  min-height: 75vh;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+.registerForm form {
+  background-image: linear-gradient(to top,#d3d3d3,#000000e1);
+}
+
+.addFirm {
+  min-height: 75vh;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.addFirm form {
+  background-image: linear-gradient(to top,#d3d3d3,#000000e1);
+}
+
+@media screen and (max-width:576px) {
+  .sideBar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sideBar * {
+    font-size: 12px;
+    padding: 8px 0px;
+  }
+  .registerForm form {
+    width: 80% !important;
+  }
+  .addFirm form {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width:768px) {
+  .sideBar {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px !important;
+    min-height: fit-content;
+  }
+  .registerForm {
+    padding-top: 8px;
+  }
+  .registerForm form {
+    width: 60% !important;
+  }
+  .addFirm {
+    padding-top: 8px;
+  }
+  .addFirm form {
+    width: 80% !important;
+  }
+}
+
+.navbarComponent {
+  background-color:#2F3C7E;
+}
+.sideBar {
+  background-color: #FB6542;
+}
