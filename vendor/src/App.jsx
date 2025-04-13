@@ -8,7 +8,7 @@ import RegisterForm from './components/forms/RegisterForm';
 import AddFirm from './components/forms/AddFirm';
 import AddProduct from './components/forms/AddProduct';
 import { ToastContainer } from 'react-toastify';
-import Welcome from './components/forms/welcome';
+import Welcome from './components/forms/Welcome';
 import AllProducts from './components/forms/AllProducts';
 import UserDetails from './components/forms/UserDetails';
 
