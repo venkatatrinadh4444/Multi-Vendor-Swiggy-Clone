@@ -137,7 +137,7 @@ function OffcanvasExample() {
                     Login
                   </NavLink>
                 )}
-                <a href="https://www.google.com" className="d-none d-lg-block text-decoration-none rounded text-light px-4 py-1 fs-lg fw-bold bg-dark shadow" target="_blank" >Vendor</a>
+                <a href="https://multi-vendor-swiggy-clone-dashboard-6l81gds0o.vercel.app" className="d-none d-lg-block text-decoration-none rounded text-light px-4 py-1 fs-lg fw-bold bg-dark shadow" target="_blank" >Vendor</a>
               </Nav>
               <Form className="d-flex mt-lg-0 mt-3" onSubmit={(e)=>e.preventDefault()}>
                 <Form.Control
