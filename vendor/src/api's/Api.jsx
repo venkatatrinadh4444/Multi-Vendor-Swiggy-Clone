@@ -1,4 +1,3 @@
-export const API_URI="http://localhost:8000"
+/* export const API_URI="http://localhost:8000" */
 
-/* export const API_URI="https://swiggy-clone-backend-qgso.onrender.com"
- */
+export const API_URI="https://multi-vendor-swiggy-clone.onrender.com"
