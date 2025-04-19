@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-app.use(cors({credentials:true,origin:["https://swiggy-clone-app-gamma.vercel.app","https://multi-vendor-swiggy-clone-dashboard-6l81gds0o.vercel.app","http://localhost:5173"]}))
+app.use(cors({credentials:true,origin:["https://swiggy-clone-app-gamma.vercel.app","https://multi-vendor-swiggy-clone-dashboard.vercel.app","https://the-digital-diner.netlify.app"]}))
 
 app.use('/vendor', vendorRoutes);
 app.use('/firm', firmRoutes);
